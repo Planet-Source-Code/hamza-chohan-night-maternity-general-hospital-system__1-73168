@@ -1,0 +1,120 @@
+[Root]
+Most Recent Package=Nighat Hospital Package
+
+
+[Package|Nighat Hospital Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Project
+
+[Package|Nighat Hospital Package|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Nighat Hospital Package|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Nighat Hospital Package|Files Found]
+
+[Package|Nighat Hospital Package|Files Released]
+
+[Package|Nighat Hospital Package|Missing Dependency Information]
+
+[Package|Nighat Hospital Package|Out-of-Date Dependency Information]
+
+[Package|Nighat Hospital Package|Files Added]
+
+[Package|Nighat Hospital Package|Files Removed]
+
+[Package|Nighat Hospital Package|Files In Project]
+D:\Nighat Maternity Home and General Hospital.exe=Yes
+C:\WIN98\SYSTEM\MSVBVM60.DLL=Yes
+C:\WIN98\SYSTEM\OLEAUT32.DLL=Yes
+C:\WIN98\SYSTEM\OLEPRO32.DLL=Yes
+C:\WIN98\SYSTEM\ASYCFILT.DLL=Yes
+C:\WIN98\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WIN98\SYSTEM\MSJET35.DLL=Yes
+C:\WIN98\SYSTEM\MSJTER35.DLL=Yes
+C:\WIN98\SYSTEM\MSJINT35.DLL=Yes
+C:\WIN98\SYSTEM\VBAJET32.DLL=Yes
+C:\WIN98\SYSTEM\EXPSRV.DLL=Yes
+C:\WIN98\SYSTEM\MSRD2X35.DLL=Yes
+C:\WIN98\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WIN98\SYSTEM\VB5DB.DLL=Yes
+C:\WIN98\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WIN98\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WIN98\SYSTEM\MSRDO20.DLL=Yes
+C:\WIN98\SYSTEM\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WIN98\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Nighat Hospital Package|Configure Registry Files]
+Applicable=No
+
+[Package|Nighat Hospital Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Nighat Hospital Package|Install Locations]
+D:\Nighat Maternity Home and General Hospital.exe=$(AppPath)
+C:\WIN98\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WIN98\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WIN98\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WIN98\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WIN98\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WIN98\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Nighat Hospital Package|Configure Shared Files]
+Applicable=Yes
+D:\Nighat Maternity Home and General Hospital.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Nighat Hospital Package|Distribution]
+Type=single
+Size=
+Title=Nighat Maternity Home and General Hospital
+
+[Package|Nighat Hospital Package|IconGroups]
+Group0=Nighat Maternity Home and General Hospital
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Nighat Hospital Package|Nighat Maternity Home and General Hospital]
+Icon1="Nighat Maternity Home and General Hospital.exe"
+Title1=Nighat Maternity Home and General Hospital
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Nighat Hospital Package|Package]
+PackageFolder=E:\Project
+ProjectFolder=E:\ProjectHospital\NMHospital
+ServerSideCab=
+File1=E:\Project\setup.exe
+File2=E:\Project\Setup.Lst
+File3=E:\Project\Nighat Maternity Home and General Hospital.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
